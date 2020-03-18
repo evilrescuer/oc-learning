@@ -1,35 +1,36 @@
 //
-//  ViewController.m
+//  Page2ViewController.m
 //  oc-learning
 //
 //  Created by Zhimao Lin on 2020/3/18.
 //  Copyright © 2020 Zhimao Lin. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "Page2ViewController.h"
 
-@interface ViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *nickNameInput;
+@interface Page2ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation Page2ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _label.text = _labelString;
 }
 
-- (IBAction)Login:(id)sender {
-    [self performSegueWithIdentifier:@"showDetail" sender:self];
-}
+/*
+#pragma mark - Navigation
 
+// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    Page2ViewController *page2 = [segue destinationViewController];
-    page2.labelString = _nickNameInput.text;
+}
+*/
+- (IBAction)goBack:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:^{}];
 }
 
 @end

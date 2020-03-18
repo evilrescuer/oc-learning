@@ -16,6 +16,7 @@
 		F59A8C2224220BD6007733A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A8C2124220BD6007733A9 /* main.m */; };
 		F59A8C2C24220BD6007733A9 /* oc_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A8C2B24220BD6007733A9 /* oc_learningTests.m */; };
 		F59A8C3724220BD6007733A9 /* oc_learningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A8C3624220BD6007733A9 /* oc_learningUITests.m */; };
+		F59A8C492422422D007733A9 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A8C482422422D007733A9 /* Page2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F59A8C3224220BD6007733A9 /* oc-learningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oc-learningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59A8C3624220BD6007733A9 /* oc_learningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_learningUITests.m; sourceTree = "<group>"; };
 		F59A8C3824220BD6007733A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59A8C472422422D007733A9 /* Page2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		F59A8C482422422D007733A9 /* Page2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				F59A8C1D24220BD6007733A9 /* LaunchScreen.storyboard */,
 				F59A8C2024220BD6007733A9 /* Info.plist */,
 				F59A8C2124220BD6007733A9 /* main.m */,
+				F59A8C472422422D007733A9 /* Page2ViewController.h */,
+				F59A8C482422422D007733A9 /* Page2ViewController.m */,
 			);
 			path = "oc-learning";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				F59A8C1124220BD3007733A9 /* AppDelegate.m in Sources */,
 				F59A8C2224220BD6007733A9 /* main.m in Sources */,
 				F59A8C1424220BD3007733A9 /* SceneDelegate.m in Sources */,
+				F59A8C492422422D007733A9 /* Page2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
